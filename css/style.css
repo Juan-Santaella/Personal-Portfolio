@@ -34,7 +34,7 @@ section{
 }
 
 .heading{
-    font-size: 4rem;
+    font-size: 3rem;
     padding-bottom: 1rem;
     color: #111;
     text-transform: uppercase;
@@ -52,7 +52,7 @@ section{
     background: var(--main-color);
     color: #fff;
     cursor: pointer;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .btn:hover{
@@ -175,7 +175,7 @@ header .follow a:hover{
 
 .home .image img{
     width: 100%;
-    border-radius: 3%;
+    border-radius: .5rem;
 }
 
 .home .content{
@@ -206,7 +206,7 @@ header .follow a:hover{
 }
 
 .home .content .text{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: #666;
     padding: .5rem 0;
 }
@@ -237,13 +237,28 @@ header .follow a:hover{
 
 .about .row-1 .content h3{
     color: #333;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .about .row-1 .content p{
     color: #666;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     padding: .5rem 0;
+}
+
+.about .row-1 .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.about .row-1 .content .box-container .box{
+    flex: 1 1 20rem;
+}
+
+.about .row-1 .content .box-container .box span{
+    color: var(--main-color);
 }
 
 
