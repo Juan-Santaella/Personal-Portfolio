@@ -169,13 +169,15 @@ header .follow a:hover{
 }
 
 .home .image{
-    /* flex: 1 1 40rem; */
-    flex: 1 1 20rem;
+    /* flex: 1 1 20rem; */
+    flex: 1 1 1rem;
+    text-align: center;
 }
 
 .home .image img{
-    width: 100%;
+    width: 80%;
     border-radius: .5rem;
+    background-color: #dbb68f;
 }
 
 .home .content{
@@ -188,7 +190,6 @@ header .follow a:hover{
 }
 
 .home .content h3{
-    /* font-size: 4.5rem; */
     font-size: 3rem;
     color: #111;
     text-transform: uppercase;
@@ -229,6 +230,7 @@ header .follow a:hover{
     border: 1rem solid #fff;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background-color: #dbb68f;
 }
 
 .about .row-1 .content{

@@ -15,7 +15,7 @@ window.onscroll = () =>{
 
 
 /*Cursores de ratón*/
-let cursor1 = document.querySelector('.cursor-1');
+/*let cursor1 = document.querySelector('.cursor-1');
 let cursor2 = document.querySelector('.cursor-2');
 
 window.onmousemove = (e) =>{
@@ -23,7 +23,7 @@ window.onmousemove = (e) =>{
     cursor1.style.left = e.pageX + 'px';
     cursor2.style.top = e.pageY + 'px';
     cursor2.style.left = e.pageX + 'px';
-}
+}*/
 
 /*Cambio de la forma del cursor al pasar sobre un item del nav*/
 document.querySelectorAll('a').forEach(links =>{
