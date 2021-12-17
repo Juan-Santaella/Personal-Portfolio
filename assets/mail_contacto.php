@@ -16,5 +16,5 @@
 
     mail($para,$asunto,utf8_decode($mensaje));
 
-    header("location: ../index.html");      //Nos redirige a la página principal
+    header("location:../index.html");      //Nos redirige a la página principal
 ?>

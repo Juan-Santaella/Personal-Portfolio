@@ -115,7 +115,7 @@
                 </div>
                 <a href="docs/CV Juan Santaella.pdf" class="btn" target="_blank">Descargar CV</a>
                 <!-- <a href="#" class="btn">Download CV</a> -->
-                <a href="#contact" class="btn" target="_blank">Contrátame</a>
+                <a href="#contact" class="btn">Contrátame</a>
                 <!-- <a href="#" class="btn">Hire me</a> -->
             </div>
 
@@ -251,7 +251,7 @@
                 <div class="content">
                     <span> 2021 - 2021 </span>
                     <h3>Front-End Development</h3>
-                    <p>Desarrollo del Portfolio Profesional.</p>
+                    <p>Portfolio Profesional.</p>
                 </div>
             </div> 
 
@@ -259,43 +259,12 @@
                 <div class="content">
                     <span> 2020 - 2021 </span>
                     <h3>Full-Stack Development</h3>
-                    <p>Desarrollo de la Aplicación Web del Club Ciclista Ballester, Isla de Tenerife, Islas Canarias, España.</p>
+                    <p>Aplicación Web Club Ciclista Ballester</p>
                 </div>
             </div> 
 
-            <!-- <div class="box">
-                <div class="content">
-                    <span> 2015 - 2016 </span>
-                    <h3>Front-End Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores cumque pariatur commodi praesentium libero non provident eius qui molestiae.</p>
-                </div>
-            </div>   
+            <!-- Copiar los divs sucesivamente más abajo para incluír nuevas experiencias-->
             
-
-            <div class="box">
-                <div class="content">
-                    <span> 2018 - 2019 </span>
-                    <h3>Front-End Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores cumque pariatur commodi praesentium libero non provident eius qui molestiae.</p>
-                </div>
-            </div> 
-
-            <div class="box">
-                <div class="content">
-                    <span> 2019 - 2020 </span>
-                    <h3>Front-End Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores cumque pariatur commodi praesentium libero non provident eius qui molestiae.</p>
-                </div>
-            </div> 
-
-            <div class="box">
-                <div class="content">
-                    <span> 2020 - 2021 </span>
-                    <h3>Front-End Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores cumque pariatur commodi praesentium libero non provident eius qui molestiae.</p>
-                </div>
-            </div> -->
-
         </div>
 
     </section>
@@ -333,49 +302,7 @@
                 </div>
             </div>
 
-            <!--<div class="box">
-                <img src="img/img-3.jpg" alt="">
-                <h3> Proyecto 03 </h3>-->
-                <!-- <h3> Project 03 </h3> -->
-                <!--<div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/img-4.jpg" alt="">
-                <h3> Proyecto 04 </h3>-->
-                <!-- <h3> Project 04 </h3> -->
-                <!--<div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/img-5.jpg" alt="">
-                <h3> Proyecto 05 </h3>-->
-                <!-- <h3> Project 05 </h3> -->
-                <!--<div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
-                </div>
-            </div>
-
-            <div class="box">
-                <img src="img/img-6.jpg" alt="">
-                <h3> Proyecto 06 </h3>-->
-                <!-- <h3> Project 06 </h3> -->
-                <!--<div class="icons">
-                    <a href="#" class="fas fa-link"></a>
-                    <a href="#" class="fas fa-share"></a>
-                    <a href="#" class="fas fa-search"></a>
-                </div>
-            </div>-->
+            <!-- Copiar los divs más abajo para añadir nuevos proyectos -->
 
         </div>
 
@@ -418,17 +345,17 @@
 
         <div class="row">
 
-            <form action="mail_contacto.php">
+            <form action="assets/mail_contacto.php" method="POST">
 
-                <input type="text" placeholder="Nombre" class="box">
+                <input type="text" name="nombre" placeholder="Nombre" class="box" required>
                 <!-- <input type="text" placeholder="Name" class="box"> -->
-                <input type="email" placeholder="Email" class="box">
-                <input type="number" placeholder="Teléfono" class="box">
+                <input type="email" name="email" placeholder="Email" class="box" required>
+                <input type="tel" name="telefono" placeholder="Teléfono (999 999 999)" class="box" pattern="[0-9]{3} [0-9]{3} [0-9]{3}">
                 <!-- <input type="number" placeholder="Number" class="box"> -->
-                <input type="number" placeholder="Asunto" class="box">
+                <input type="text" name="asunto" placeholder="Asunto" class="box" required>
                 <!-- <input type="number" placeholder="Number" class="box"> -->
 
-                <textarea name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+                <textarea name="mensaje" placeholder="Mensaje" id="" cols="30" rows="10" required></textarea>
                 <!-- <textarea name="" placeholder="Message" id="" cols="30" rows="10"></textarea> -->
 
                 <input type="submit" class="btn" value="Enviar Mensaje">
