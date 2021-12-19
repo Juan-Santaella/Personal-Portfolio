@@ -170,13 +170,12 @@ header .follow a:hover{
 }
 
 .home .image{
-    /* flex: 1 1 20rem; */
-    flex: 1 1 1rem;
+    flex: 1 1 20rem;
     text-align: center;
 }
 
 .home .image img{
-    width: 80%;
+    width: 90%;
     border-radius: .5rem;
     background-color: #dbb68f;
 }
