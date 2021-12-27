@@ -175,7 +175,8 @@ header .follow a:hover{
 }
 
 .home .image img{
-    width: 90%;
+    width: 50%;
+    margin-top: 3em;
     border-radius: .5rem;
     background-color: #dbb68f;
 }
@@ -459,7 +460,6 @@ header .follow a:hover{
 .portfolio .box-container .box img{
     height: 100%;
     width: 100%;
-    background: #fff;
     border-radius: .5rem;
     position: relative;
     z-index: 1;
