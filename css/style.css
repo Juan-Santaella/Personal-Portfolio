@@ -170,12 +170,12 @@ header .follow a:hover{
 }
 
 .home .image{
-    flex: 1 1 20rem;
+    /* flex: 1 1 20rem; */
     text-align: center;
 }
 
 .home .image img{
-    width: 50%;
+    width: 100%;
     margin-top: 3em;
     border-radius: .5rem;
     background-color: #dbb68f;
@@ -635,6 +635,11 @@ footer span{
     .cursor-2{
         display: none;
     }
+
+    .home .image{
+        flex: 1 1 20rem;
+    }
+
 }
 
 @media (max-width:747px){
