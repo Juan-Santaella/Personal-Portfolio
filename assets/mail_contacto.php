@@ -14,7 +14,7 @@
         Mensaje: ".$mensaje."
     ";
 
-    mail($para,$asunto,utf8_decode($mensaje));
+    mail($para,$asunto,utf8_decode($cuerpo_mensaje));
 
     header("location:../index.html");      //Nos redirige a la página principal
 ?>
